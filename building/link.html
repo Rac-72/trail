@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo').innerHTML=Date()"> The date is?</button>
+    <p id="demo2"></p>
+    
+     <button  onclick="myFunction1()"> sorting alphabetically</button>
+     <button  onclick="myFunction2()"> sorting  numerically</button>
+     <p id="demo3"></p>
+     
+   <script>
+       //compare function
+    const points=[1, 30, 5, 20, 40, 50, 60];
+    document.getElementById('demo3').innerHTML=points
+    function myFunction1(){ points.sort(); document.getElementById('demo3').innerHTML=points};
+    const point=[1, 30, 5, 20, 40, 50, 60];
+    document.getElementById('demo3').innerHTML=point
+    function myFunction2(){ point.sort( function
+        (a,b){ return a-b}
+    ); document.getElementById('demo3').innerHTML=point};
+    let header ='template literals';
+    
+ let tags =['template literals','javascript','ES6'];
+ let html = `<h2> ${header}</h2><ul>`
+ for (const x  of tags){ html+= `<li> ${x} </li>`
+    
+ }
+ html +=`<ul>`
+document.getElementById("demo").innerHTML=html;
+
+ let myNumber =2;
+ let x ="";
+ while(myNumber != Infinity){
+     myNumber=myNumber*myNumber;
+     x=x+myNumber+'<br>';
+ }
+ document.getElementById('demo').innerHTML=x
+ let xem = 2/0;
+ let kem = -2/0
+ document.getElementById('demo').innerHTML=xem+'<br>'+kem
+    </script>
+</body>
+</html>
