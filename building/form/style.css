@@ -1,0 +1,14 @@
+ input{
+     display: inline-block;
+    margin: 5px;
+ }
+  label{
+       display:block;
+        margin: 5px;
+  }
+   #form{
+       justify-content: center;
+        display: center;
+        align-items: center;
+        ;
+   }

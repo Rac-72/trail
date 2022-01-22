@@ -1,0 +1,85 @@
+*{
+ margin:10px; 
+  text-align: center;  
+   padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+}
+ .container{
+   margin-top: 10px; 
+    display: block;
+    padding: 10px;
+     box-sizing: border-box;
+      border:2px solid#fff;
+      height: 500px;
+      width: 400px;
+       text-align: center;
+        margin: auto;
+        box-shadow: 12px 12px 16px gray,  -12px -12px 10px gray;
+         border-radius: 10px;
+ }
+  h1{
+       font-weight: bolder;
+        text-transform: uppercase;
+         text-align: center;
+          color: rgb(7, 68, 68);
+           margin-bottom: 5px;
+        
+        
+  }
+   input{
+        margin: 5px;
+       border-radius: 50px;
+        height: 30px;
+         border: none;
+          outline: none;
+          box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+   }
+
+    h3{
+    text-transform: capitalize;
+    color: rgb(7, 68, 68);
+    }
+     #cal{
+          width: 150px;
+          margin-top: 50px;
+           padding: 5px;
+            border-radius: 10px;
+             margin-bottom: 20px;
+              position: relative;
+               background-color:  rgb(9, 77, 77) ;
+                color: white;
+                 outline: none;
+                  border: none;
+                   
+            
+     }
+      
+
+      
+      #result{
+          width: 200px;
+    border-radius: 10px;
+            background-color: rgb(9, 77, 77);
+             margin: auto;
+             text-align: center;
+              padding: 20px;
+                color: white;
+                margin-top: 15px;
+
+            
+      }
+       .btn{
+            border-radius: 10px;
+             outline: none;
+              border: none;
+             color: white;
+                width: 100px;
+                 margin: auto;
+                  padding: 5px;
+                   background-color: rgb(9, 77, 77);
+
+       }
+     #close{
+margin-top: 40px;
+     }

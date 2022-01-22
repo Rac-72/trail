@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width= , initial-scale=1.0">
+     <title>Document</title>
+      <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+      <table>
+           <td>
+                <form onsubmit="event.preventDefault(); onFormSubmit();"autocomplete="off" action="get">
+                     <div id="div">
+                    <label for=" first"> FirstName</label> 
+                     <input type="text" name="" id="fname">
+                      <label for="last"> LastName</label>
+                      <input type="text" id="lname"> 
+                      <label for="last"> Faculty</label>
+                      <input type="text" id="fac"> 
+                      <label for="last"> Department</label>
+                      <input type="text" id="dept"> 
+                      <label for="last"> Level</label>
+                      <input type="text" id="lev"> 
+                      <label for="last"> Grade</label>
+                      <input type="text" id="grade"> 
+                      </div>
+                </form>
+                 <button id="btn"> submit</button>
+           </td>
+            <table border="7" id="scores">
+                 <thead>
+                     <tr>
+                         <th>FirstName </th>
+                         <th>LastName</th>
+                         <th>Faculty</th>
+                         <th> Department</th>
+                         <th> Level</th>
+                         <th> Grade</th>
+                         <th> delete</th>
+
+
+
+
+                     </tr>
+                 </thead>
+            </table>
+      </table>
+       <script src="form.js"></script>
+ </body>
+ </html>
